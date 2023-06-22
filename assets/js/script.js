@@ -6,9 +6,9 @@ button.addEventListener('click', function() {
 
   let result = Math.floor(Math.random() * (max - min + 1)) + min;
 
-  if (isNaN(min) === isNaN(max)) {
+  if (isNaN(result)) {
     alert('Insert Number')
   }
 
-  document.querySelector('#result' > span).textLength = result;
+  document.querySelector('#result > span').textContent = result;
 })
