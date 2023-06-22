@@ -6,7 +6,7 @@ button.addEventListener('click', function() {
 
   let result = Math.floor(Math.random() * (max - min + 1)) + min;
 
-  if (isNaN(result)) {
+  if (isNaN(min) && isNaN(max)) {
     alert('Insert Number')
   }
 
